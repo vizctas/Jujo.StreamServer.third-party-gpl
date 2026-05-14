@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Users/Jozh/repos/Jujo.StreamServer/CMakeFiles/cmake.verify_globs
+C:/Users/Jozh/repos/Jujo.StreamServer/third-party/libdisplaydevice/cmake/Boost_DD.cmake
+C:/Users/Jozh/repos/Jujo.StreamServer/third-party/libdisplaydevice/cmake/Json_DD.cmake
+C:/Users/Jozh/repos/Jujo.StreamServer/third-party/libdisplaydevice/src/windows/CMakeLists.txt
+C:/msys64/ucrt64/lib/cmake/Boost-1.91.0/BoostConfig.cmake
+C:/msys64/ucrt64/lib/cmake/Boost-1.91.0/BoostConfigVersion.cmake
+C:/msys64/ucrt64/lib/cmake/boost_headers-1.91.0/boost_headers-config-version.cmake
+C:/msys64/ucrt64/lib/cmake/boost_headers-1.91.0/boost_headers-config.cmake
+C:/msys64/ucrt64/lib/cmake/boost_headers-1.91.0/boost_headers-targets.cmake

@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D2AB1B2E-31F7-3979-B838-2033E3A8E27E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>libdisplaydevice_windows</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libdisplaydevice_windows.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libdisplaydevice_windows</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libdisplaydevice_windows.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libdisplaydevice_windows</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libdisplaydevice_windows.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libdisplaydevice_windows</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libdisplaydevice_windows.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libdisplaydevice_windows</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/msys64/ucrt64/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0A00;WINVER=0x0A00;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_WIN32_WINNT=0x0A00;WINVER=0x0A00;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include;C:\msys64\ucrt64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include;C:\msys64\ucrt64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/msys64/ucrt64/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0A00;WINVER=0x0A00;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0A00;WINVER=0x0A00;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include;C:\msys64\ucrt64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include;C:\msys64\ucrt64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/msys64/ucrt64/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0A00;WINVER=0x0A00;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0A00;WINVER=0x0A00;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include;C:\msys64\ucrt64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include;C:\msys64\ucrt64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/msys64/ucrt64/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0A00;WINVER=0x0A00;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0A00;WINVER=0x0A00;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include;C:\msys64\ucrt64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include;C:\msys64\ucrt64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Jozh/repos/Jujo.StreamServer/third-party/libdisplaydevice/src/windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\msys64\ucrt64\bin\cmake.exe -SC:/Users/Jozh/repos/Jujo.StreamServer -BC:/Users/Jozh/repos/Jujo.StreamServer --check-stamp-file C:/Users/Jozh/repos/Jujo.StreamServer/third-party/libdisplaydevice/src/windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Jozh\repos\Jujo.StreamServer\CMakeFiles\cmake.verify_globs;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\cmake\Boost_DD.cmake;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\cmake\Json_DD.cmake;C:\msys64\ucrt64\lib\cmake\Boost-1.91.0\BoostConfig.cmake;C:\msys64\ucrt64\lib\cmake\Boost-1.91.0\BoostConfigVersion.cmake;C:\msys64\ucrt64\lib\cmake\boost_headers-1.91.0\boost_headers-config-version.cmake;C:\msys64\ucrt64\lib\cmake\boost_headers-1.91.0\boost_headers-config.cmake;C:\msys64\ucrt64\lib\cmake\boost_headers-1.91.0\boost_headers-targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Jozh/repos/Jujo.StreamServer/third-party/libdisplaydevice/src/windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\msys64\ucrt64\bin\cmake.exe -SC:/Users/Jozh/repos/Jujo.StreamServer -BC:/Users/Jozh/repos/Jujo.StreamServer --check-stamp-file C:/Users/Jozh/repos/Jujo.StreamServer/third-party/libdisplaydevice/src/windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Jozh\repos\Jujo.StreamServer\CMakeFiles\cmake.verify_globs;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\cmake\Boost_DD.cmake;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\cmake\Json_DD.cmake;C:\msys64\ucrt64\lib\cmake\Boost-1.91.0\BoostConfig.cmake;C:\msys64\ucrt64\lib\cmake\Boost-1.91.0\BoostConfigVersion.cmake;C:\msys64\ucrt64\lib\cmake\boost_headers-1.91.0\boost_headers-config-version.cmake;C:\msys64\ucrt64\lib\cmake\boost_headers-1.91.0\boost_headers-config.cmake;C:\msys64\ucrt64\lib\cmake\boost_headers-1.91.0\boost_headers-targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Jozh/repos/Jujo.StreamServer/third-party/libdisplaydevice/src/windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\msys64\ucrt64\bin\cmake.exe -SC:/Users/Jozh/repos/Jujo.StreamServer -BC:/Users/Jozh/repos/Jujo.StreamServer --check-stamp-file C:/Users/Jozh/repos/Jujo.StreamServer/third-party/libdisplaydevice/src/windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Jozh\repos\Jujo.StreamServer\CMakeFiles\cmake.verify_globs;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\cmake\Boost_DD.cmake;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\cmake\Json_DD.cmake;C:\msys64\ucrt64\lib\cmake\Boost-1.91.0\BoostConfig.cmake;C:\msys64\ucrt64\lib\cmake\Boost-1.91.0\BoostConfigVersion.cmake;C:\msys64\ucrt64\lib\cmake\boost_headers-1.91.0\boost_headers-config-version.cmake;C:\msys64\ucrt64\lib\cmake\boost_headers-1.91.0\boost_headers-config.cmake;C:\msys64\ucrt64\lib\cmake\boost_headers-1.91.0\boost_headers-targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Jozh/repos/Jujo.StreamServer/third-party/libdisplaydevice/src/windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\msys64\ucrt64\bin\cmake.exe -SC:/Users/Jozh/repos/Jujo.StreamServer -BC:/Users/Jozh/repos/Jujo.StreamServer --check-stamp-file C:/Users/Jozh/repos/Jujo.StreamServer/third-party/libdisplaydevice/src/windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Jozh\repos\Jujo.StreamServer\CMakeFiles\cmake.verify_globs;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\cmake\Boost_DD.cmake;C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\cmake\Json_DD.cmake;C:\msys64\ucrt64\lib\cmake\Boost-1.91.0\BoostConfig.cmake;C:\msys64\ucrt64\lib\cmake\Boost-1.91.0\BoostConfigVersion.cmake;C:\msys64\ucrt64\lib\cmake\boost_headers-1.91.0\boost_headers-config-version.cmake;C:\msys64\ucrt64\lib\cmake\boost_headers-1.91.0\boost_headers-config.cmake;C:\msys64\ucrt64\lib\cmake\boost_headers-1.91.0\boost_headers-targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\json.h" />
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\persistent_state.h" />
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\settings_manager.h" />
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\settings_utils.h" />
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\types.h" />
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\win_api_layer.h" />
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\win_api_layer_interface.h" />
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\win_api_recovery.h" />
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\win_api_utils.h" />
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\win_display_device.h" />
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\win_display_device_interface.h" />
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\detail\json_serializer.h" />
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\json.cpp" />
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\json_serializer.cpp" />
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\persistent_state.cpp" />
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\settings_manager_apply.cpp" />
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\settings_manager_general.cpp" />
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\settings_manager_revert.cpp" />
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\settings_utils.cpp" />
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\types.cpp" />
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\win_api_layer.cpp" />
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\win_api_utils.cpp" />
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\win_display_device_general.cpp" />
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\win_display_device_hdr.cpp" />
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\win_display_device_modes.cpp" />
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\win_display_device_primary.cpp" />
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\win_display_device_topology.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Jozh\repos\Jujo.StreamServer\ZERO_CHECK.vcxproj">
+      <Project>{0F109938-C1C1-3219-A716-13B453C1E7A0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\libdisplaydevice_common.vcxproj">
+      <Project>{E9BB503D-A72C-385A-8AE2-79B012BC399B}</Project>
+      <Name>libdisplaydevice_common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

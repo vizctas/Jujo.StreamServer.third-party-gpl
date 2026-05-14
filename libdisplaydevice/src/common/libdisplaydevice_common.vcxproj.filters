@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\file_settings_persistence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\json_serializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\logging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\noop_audio_context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\noop_settings_persistence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\retry_scheduler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include\display_device\audio_context_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include\display_device\file_settings_persistence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include\display_device\json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include\display_device\logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include\display_device\noop_audio_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include\display_device\noop_settings_persistence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include\display_device\retry_scheduler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include\display_device\settings_manager_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include\display_device\settings_persistence_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include\display_device\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include\display_device\detail\json_converter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include\display_device\detail\json_serializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\include\display_device\detail\json_serializer_details.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\common\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1BAAB426-3372-3454-86E2-EF6B263CA7BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4F9E83B5-3C5B-3C86-AFD7-30EDA2E2CCA7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

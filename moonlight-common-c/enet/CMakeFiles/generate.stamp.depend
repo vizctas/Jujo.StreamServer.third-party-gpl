@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/Users/Jozh/repos/Jujo.StreamServer/CMakeFiles/cmake.verify_globs
+C:/Users/Jozh/repos/Jujo.StreamServer/third-party/moonlight-common-c/enet/CMakeLists.txt
+C:/msys64/ucrt64/share/cmake/Modules/CheckCSourceCompiles.cmake
+C:/msys64/ucrt64/share/cmake/Modules/CheckCXXSourceCompiles.cmake
+C:/msys64/ucrt64/share/cmake/Modules/CheckFunctionExists.cmake
+C:/msys64/ucrt64/share/cmake/Modules/CheckIncludeFile.cmake
+C:/msys64/ucrt64/share/cmake/Modules/CheckIncludeFileCXX.cmake
+C:/msys64/ucrt64/share/cmake/Modules/CheckSourceCompiles.cmake
+C:/msys64/ucrt64/share/cmake/Modules/CheckStructHasMember.cmake
+C:/msys64/ucrt64/share/cmake/Modules/CheckTypeSize.cmake
+C:/msys64/ucrt64/share/cmake/Modules/Internal/CheckSourceCompiles.cmake

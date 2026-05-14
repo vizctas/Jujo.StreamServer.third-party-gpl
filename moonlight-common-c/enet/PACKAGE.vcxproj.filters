@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jozh\repos\Jujo.StreamServer\CMakeFiles\425e7e670cb390d186c1b4d53f588445\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7E90DBA8-9D21-379A-9820-4BCAB613BADD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

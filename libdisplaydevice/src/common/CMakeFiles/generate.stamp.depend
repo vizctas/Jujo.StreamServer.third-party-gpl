@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Users/Jozh/repos/Jujo.StreamServer/CMakeFiles/cmake.verify_globs
+C:/Users/Jozh/repos/Jujo.StreamServer/third-party/libdisplaydevice/cmake/Json_DD.cmake
+C:/Users/Jozh/repos/Jujo.StreamServer/third-party/libdisplaydevice/src/common/CMakeLists.txt
+C:/msys64/ucrt64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake
+C:/msys64/ucrt64/share/cmake/Modules/FindPackageMessage.cmake
+C:/msys64/ucrt64/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake
+C:/msys64/ucrt64/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake
+C:/msys64/ucrt64/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake

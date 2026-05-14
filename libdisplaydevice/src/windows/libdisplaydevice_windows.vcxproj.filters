@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\json_serializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\persistent_state.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\settings_manager_apply.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\settings_manager_general.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\settings_manager_revert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\settings_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\win_api_layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\win_api_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\win_display_device_general.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\win_display_device_hdr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\win_display_device_modes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\win_display_device_primary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\win_display_device_topology.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\persistent_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\settings_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\settings_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\win_api_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\win_api_layer_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\win_api_recovery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\win_api_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\win_display_device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\win_display_device_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\include\display_device\windows\detail\json_serializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jozh\repos\Jujo.StreamServer\third-party\libdisplaydevice\src\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1BAAB426-3372-3454-86E2-EF6B263CA7BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4F9E83B5-3C5B-3C86-AFD7-30EDA2E2CCA7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
